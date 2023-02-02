@@ -5,20 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <title>B4CUP autenticação</title>
-        <style>
-            @media (min-width: 992px) {
-.border-820aa7 {
-border-width: 3px;
-}
-}
         </style>
+
+        
     </head>
     <body style="background-color: rgb(27, 9, 34);">
         <img class="d-block w-100" src="/images/ddexehb2pwc21.jpg" style="opacity: 30%; height: 100vh;">
-        <div class="position-absolute d-flex align-items-center justify-content-center" style="top:0; left:0; width: 25%; height: 100%; background-color: rgba(53, 53, 53, 0.555); border: 3px solid #820aa7; border-radius: 10px;">
-            <div class="d-flex justify-content-start align-items-center" style="font-family: 'Metropolis', sans-serif; font-size: 200%; color: #ffffff;">
+
+        <div id="ola" class="position-absolute d-flex align-items-center justify-content-center" style="top:0; left:0; width: 25%; height: 100%; background-color: rgba(53, 53, 53, 0.555); border: 3px solid #820aa7; border-radius: 10px;">
+            
+            <div class="text-white" style="top: 10%;font-family: 'Metropolis', sans-serif; font-size: 200%; color: #ffffff; position: absolute;">
                 <p class="text-white">Cadastro</p>
             </div>
+
             <form class="form-group" method="post">
                 <div class="form-group">
                     <label for="nome" class="text-white">Nome</label>
@@ -28,13 +27,44 @@ border-width: 3px;
                     <label for="senha" class="text-white">Senha</label>
                     <input type="password" name="senha" id="senha" class="form-control" placeholder="" style="background-color: transparent; border-color: #820aa7; border-style: solid; border-radius: 5px;">
                 </div>
-                <button type="submit" class="btn btn-outline-primary" style="background-color: transparent; border-color: #820aa7; border-style: solid; border-radius: 10px; color: #ffffff;">Cadastrar</button>
+                <button id="button" type="submit" class="btn btn-outline-primary" style="background-color: transparent; border-color: #820aa7; border-style: solid; border-radius: 10px; color: #ffffff;">Cadastrar</button>
             </form>
         </div>
-        <div class="text-white">
-            <a href="/login">Já tem uma conta?</a>
 
-            <img src="/images/LETREIRO-B4-SEMFUNDO.png" class="d-block d-sm-none" style="width: 14%; top: 18%; left: 6%; position: absolute;">
-            <img src="/images/arteskinb4.png" alt="arteskin" class="d-block d-sm-none" height="80%" style ="left: 45%; top: 10%; position: absolute;">
+        <div id="linklogin" class="text-white">
+            <a href="/login">Já tem uma conta?</a>
+        </div>
+
+            <img id="letreirob4" src="/images/LETREIRO-B4-SEMFUNDO.png" class="d-block d-sm-none" style="width: 14%; top: 18%; left: 6%; position: absolute;">
     </body>
+
+    <style>
+        @media (max-width: 768px) {
+    #ola {
+        width: 100% !important;
+    }
+
+    #artskin {
+        display: none !important;
+    }
+
+    #linklogin {
+        top: 90% !important;
+        left: 35%;
+        position : absolute;
+    }
+
+    #letreirob4 {
+        width: 50% !important;
+        left: 25% !important;
+        top: 20% !important;
+    }
+
+    #button {
+        top: 10% !important;
+    }
+
+}
+
+      </style>
 </html>
