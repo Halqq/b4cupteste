@@ -5,62 +5,50 @@
         <link rel="shortcut icon" href="./images/logobrazilianleague.png" />
 
         <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-          
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
         <!-- CSS only -->
         <link
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-          crossorigin="anonymous"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+        crossorigin="anonymous"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-          href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
-          rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+        rel="stylesheet"
         />
         
     <title>B4CUP autenticação</title>
 
-<style>
+    </head>
 
-    body{
-        background-color: rgb(27, 9, 34);
-    }
+    <body style="background-color: rgb(27, 9, 34);">
 
-    .full-screen-img {
-        height: 100vh;
-        width: 100vw;
-        opacity: 10%;
-        position: absolute;
-}
+    <img class="d-block" src="./images/ddexehb2pwc21.jpg" style="opacity: 30%; height: 100vh; width: 100vw;">
 
-    </style>
-</head>
-
-<body>
-
-  <img class="full-screen-img" src="/images/ddexehb2pwc21.jpg">
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <img src="/images/LOGO-COMPLETA-B4-SEMFUNDO.png" alt="logo" width="80" height="74" class="d-inline-block align-text-top">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav" style="margin-left: 35%;">
-          <a class="nav-link" aria-current="page" href="#">Inicio</a>
-          <a class="nav-link" href="#">Campeonatos</a>
-          <a class="nav-link" href="#">Afiliados</a>
-        </div>
-      </div>
+    <div class="position-absolute d-flex align-items-center justify-content-center" style="top:0; left:0; width: 25%; height: 100%; background-color: rgba(53, 53, 53, 0.555); border: 3px solid #820aa7; border-radius: 10px;">
+        <div class="position-absolute d-flex justify-content-start align-items-center" style="font-family: 'Metropolis', sans-serif; font-size: 200%; color: #ffffff; top: 10%; left: 28%;">
+        <p class="text-white">Cadastro</p>
     </div>
-  </nav>
+        <form class="form-group" method="post">
+        <label for="nome" class="text-white">Nome</label>
+        <input type="text" name="nome" id="nome" class="form-control" placeholder="" style="background-color: transparent; border-color: #820aa7; border-style: solid; border-radius: 5px; text-decoration-color: #ffffff;">
+        <label for="senha" class="text-white">Senha</label>
+        <input type="password" name="senha" id="senha" class="form-control" placeholder="" style="background-color: transparent; border-color: #820aa7; border-style: solid; border-radius: 5px;">
+        <button type="submit" class="btn btn-outline-primary" style="background-color: transparent; border-color: #820aa7; border-style: solid; border-radius: 10px; color: #ffffff;">Cadastrar</button>
+        </form>
+    </div>
 
-    <img src="/images/LETREIRO-B4-SEMFUNDO.png",  style="width: 14%; top: 18%; left: 40%; position: absolute;">
+    <div class="text-white" style="position: absolute; top: 87%; left: 8%;">
+        <a href="/login">Já tem uma conta?</a>
+    </div>
+
+    <img src="./images/LETREIRO-B4-SEMFUNDO.png",  style="width: 14%; top: 18%; left: 6%; position: absolute;">
+
+    <img src="./images/arteskinb4.png" alt="arteskin" height="80%" style ="left: 45%; top: 10%; position: absolute;" />
     </body>
 </html>
